@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-02-27T21:53:30.091395",
+  "stages": {
+    "resource_finder": {
+      "status": "failed",
+      "started_at": "2026-02-27T21:53:30.091663",
+      "completed_at": "2026-02-27T21:53:33.676773",
+      "success": false,
+      "outputs": {}
+    }
+  },
+  "current_stage": null,
+  "completed": false
+}
