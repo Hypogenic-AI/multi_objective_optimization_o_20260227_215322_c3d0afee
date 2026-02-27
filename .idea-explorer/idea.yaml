@@ -1,0 +1,49 @@
+idea:
+  title: 'Multi-Objective Optimization of LLM Trading Agents: Balancing Profit and
+    Adversarial Robustness'
+  domain: artificial_intelligence
+  hypothesis: 'LLM trading agents face a fundamental trade-off between profit maximization
+    and adversarial robustness, where increased defensive measures against prompt
+    injection attacks reduce trading performance by 15-30%. However, multi-objective
+    optimization techniques can identify Pareto-optimal solutions that maintain competitive
+    returns while achieving substantial robustness improvements.
+
+    '
+  background:
+    description: 'Large language model-based trading agents are increasingly vulnerable
+      to prompt injection attacks that can manipulate their decision-making processes,
+      potentially causing significant financial losses. Current research focuses on
+      either profit optimization or security independently, but real-world deployment
+      requires simultaneous consideration of both objectives.
+
+      '
+  methodology:
+    approach: Design and evaluate multi-objective optimization frameworks for LLM
+      trading agents using simulated trading environments with adversarial prompt
+      injection scenarios.
+    steps:
+    - Implement baseline LLM trading agents with standard profit maximization objectives
+    - Develop adversarial prompt injection attack suite targeting trading decisions
+    - Design multi-objective optimization framework balancing profit and robustness
+      metrics
+    - Evaluate Pareto frontiers across different market conditions and attack intensities
+    - Analyze trade-off relationships and identify optimal operating points
+    metrics:
+    - Sharpe ratio and cumulative returns under normal conditions
+    - Performance degradation under adversarial attacks
+    - Robustness score against prompt injection attempts
+    - Pareto frontier efficiency metrics
+  constraints:
+    compute: cpu_only
+    time_limit: 3600
+  metadata:
+    tags:
+    - llm-security
+    - trading-algorithms
+    - multi-objective-optimization
+    - adversarial-robustness
+    idea_id: multi_objective_optimization_o_20260227_215322_c3d0afee
+    created_at: '2026-02-27T21:53:22.882357'
+    status: submitted
+    github_repo_name: multi_objective_optimization_o_20260227_215322_c3d0afee
+    github_repo_url: https://github.com/Hypogenic-AI/multi_objective_optimization_o_20260227_215322_c3d0afee
